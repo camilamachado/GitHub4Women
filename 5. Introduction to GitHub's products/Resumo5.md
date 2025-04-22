@@ -1,5 +1,6 @@
+# 💼 Etapa 5 – Introduction to GitHub's products
 
-# 🧾 **Tipos de Conta no GitHub**
+## 🧾 **Tipos de Conta no GitHub**
 - 👤 **Pessoal**
 - 🏢 **Organização**
 - 🏦 **Corporativa (Empresa)**

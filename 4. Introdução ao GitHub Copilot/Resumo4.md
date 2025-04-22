@@ -1,6 +1,4 @@
-Claro! Aqui está seu texto ajustado, mantendo a clareza, coesão e formato profissional, pronto para ser usado em uma documentação, blog post, ou carrossel no LinkedIn:
-
----
+# 💬 Etapa 4 - Introdução ao GitHub Copilot
 
 ### 🧠 O que é o GitHub Copilot?
 
