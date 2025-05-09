@@ -1,6 +1,11 @@
 # GitHub4Women
 
-Este repositório contém os exercícios e práticas realizadas durante o curso GitHub4Women, focado em promover o domínio do Git e GitHub por mulheres na tecnologia.
+Este repositório contém resumos dos conteúdos vistos no desafio **GitHub4Women** no **Microsoft Learn**, focado em promover o domínio do Git e GitHub por mulheres na tecnologia.
+
+Além disso, **montei um simulado** com base nas questões do desafio **GitHub4Women**. Você pode acessar o simulado em:  
+👉 [Simulado GitHub4Women](https://camilamachado.github.io/GitHub4Women/)
+
+Esse simulado foi implementado utilizando **GitHub Pages** e **GitHub Actions**, ferramentas que foram abordadas ao longo do curso.
 
 ## 📂 Sumário dos Arquivos
 
