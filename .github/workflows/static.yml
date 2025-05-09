@@ -1,0 +1,39 @@
+name: Deploy para GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # ou 'master', dependendo da sua branch padrão
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar o repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dos arquivos estáticos
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .  # usa a raiz do repositório
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy final
+        id: deployment
+        uses: actions/deploy-pages@v4
