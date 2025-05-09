@@ -1,0 +1,60 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulado</title>
+</head>
+<body>
+  <h1>Simulado</h1>
+  <form id="quiz-form">
+    <div>
+      <p>1. Qual a capital do Brasil?</p>
+      <label><input type="radio" name="q1" value="a"> São Paulo</label><br>
+      <label><input type="radio" name="q1" value="b"> Brasília</label><br>
+      <label><input type="radio" name="q1" value="c"> Rio de Janeiro</label>
+    </div>
+    <div>
+      <p>2. Quanto é 2 + 2?</p>
+      <label><input type="radio" name="q2" value="a"> 3</label><br>
+      <label><input type="radio" name="q2" value="b"> 4</label><br>
+      <label><input type="radio" name="q2" value="c"> 5</label>
+    </div>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script>
+    const answers = {
+      q1: 'b',
+      q2: 'b'
+    };
+
+    document.getElementById('quiz-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      const formData = new FormData(event.target);
+      let correct = 0;
+      let wrong = 0;
+      const feedback = [];
+
+      for (const [key, correctAnswer] of Object.entries(answers)) {
+        const userAnswer = formData.get(key);
+        if (userAnswer === correctAnswer) {
+          correct++;
+          feedback.push(`✅ Questão ${key.toUpperCase().slice(1)} correta`);
+        } else {
+          wrong++;
+          feedback.push(`❌ Questão ${key.toUpperCase().slice(1)} errada`);
+        }
+      }
+
+      document.getElementById('result').innerHTML = `
+        <p>Acertos: ${correct}</p>
+        <p>Erros: ${wrong}</p>
+        <ul>${feedback.map(f => `<li>${f}</li>`).join('')}</ul>
+      `;
+    });
+  </script>
+</body>
+</html>
