@@ -1,89 +1,74 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #f7f9fc;
-    margin: 0;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-  
-  .container {
-    background: white;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    width: 100%;
-  }
-  
-  h1 {
-    text-align: center;
-    color: #2c3e50;
-  }
-  
-  .question {
-    margin-bottom: 2rem;
-  }
-  
-  .question p {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 0.3rem;
-  }
-  
-  .feedback-inline {
-    margin-left: 0.5rem;
-    font-style: italic;
-  }
-  
-  .correct {
-    color: green;
-  }
-  
-  .wrong {
-    color: red;
-  }
-  
-  button {
-    background-color: #2c3e50;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    display: block;
-    margin: 2rem auto 0;
-  }
-  
-  button:hover {
-    background-color: #1a242f;
-  }
-  
-  .result-summary {
-    text-align: center;
-    margin-top: 2rem;
-    font-weight: bold;
-    color: #2c3e50;
-  }
-  
-  .percentage {
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
-    background-color: #ecf4ff;
-    color: #0c4a6e;
-    display: inline-block;
-    padding: 0.4rem 0.8rem;
-    border-radius: 8px;
-    font-weight: 600;
-  }  
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 2rem;
+}
+
+.container {
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #24292f;
+}
+
+.question {
+  margin-bottom: 2rem;
+}
+
+.question p {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.feedback-inline {
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+button {
+  background-color: #2ea44f;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2c974b;
+}
+
+.result {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.percentage {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #0366d6;
+}

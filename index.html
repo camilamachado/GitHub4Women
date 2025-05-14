@@ -1,35 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Simulado</title>
-  <link rel="stylesheet" href="style.css"> <!-- Referência ao CSS -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Questionário - GitHub Foundation</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Simulado</h1>
+  <main class="container">
+    <h1>GitHub Foundation</h1>
     <form id="quiz-form">
-      <div class="question" data-question="q1">
-        <p>1. Qual a capital do Brasil?</p>
-        <label><input type="radio" name="q1" value="a"> São Paulo <span class="feedback-inline" data-feedback="q1-a"></span></label>
-        <label><input type="radio" name="q1" value="b"> Brasília <span class="feedback-inline" data-feedback="q1-b"></span></label>
-        <label><input type="radio" name="q1" value="c"> Rio de Janeiro <span class="feedback-inline" data-feedback="q1-c"></span></label>
-      </div>
-
-      <div class="question" data-question="q2">
-        <p>2. Quanto é 2 + 2?</p>
-        <label><input type="radio" name="q2" value="a"> 3 <span class="feedback-inline" data-feedback="q2-a"></span></label>
-        <label><input type="radio" name="q2" value="b"> 4 <span class="feedback-inline" data-feedback="q2-b"></span></label>
-        <label><input type="radio" name="q2" value="c"> 5 <span class="feedback-inline" data-feedback="q2-c"></span></label>
-      </div>
-
+      <div id="questions-container"></div>
       <button type="submit">Enviar</button>
     </form>
-
-    <div id="result" class="result-summary"></div>
-  </div>
-
-  <script src="script.js"></script> <!-- Referência ao JavaScript -->
+    <div id="result" class="result"></div>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>

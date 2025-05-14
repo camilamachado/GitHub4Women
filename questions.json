@@ -1,0 +1,92 @@
+[
+    {
+        "id": "q1",
+        "text": "1. Sua equipe está se preparando para implantar um novo recurso usando ramificações do GitHub. O que deve ser feito para garantir que a ramificação do recurso esteja pronta para implantação?",
+        "options": {
+            "a": "Garantir que todas as alterações sejam revisadas e aprovadas por meio de uma pull request antes de mesclar na branch principal.",
+            "b": "Excluir a ramificação do recurso para finalizar o processo de implantação.",
+            "c": "Comitar todas as alterações diretamente na branch principal sem revisão."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q2",
+        "text": "2. Sua equipe deseja melhorar a colaboração utilizando o GitHub Discussions. Qual é uma característica principal do GitHub Discussions que apoia a comunicação aberta?",
+        "options": {
+            "a": "Elas são limitadas apenas a tópicos relacionados a código.",
+            "b": "Elas geram automaticamente itens de ação para os membros da equipe.",
+            "c": "Elas permitem conversas fluidas e abertas acessíveis a todos com acesso ao repositório."
+        },
+        "answer": "c"
+    },
+    {
+        "id": "q3",
+        "text": "3. Como o GitHub Copilot pode beneficiar sua equipe de desenvolvimento?",
+        "options": {
+            "a": "Reduzindo a necessidade de escrever testes para o código.",
+            "b": "Fornecendo sugestões de código baseadas em IA que aceleram o processo de codificação.",
+            "c": "Eliminando completamente a necessidade de revisão de código."
+        },
+        "answer": "b"
+    },
+    {
+        "id": "q4",
+        "text": "4. O que é um GitHub Action dentro do GitHub?",
+        "options": {
+            "a": "Um fórum de discussão para equipes técnicas.",
+            "b": "Um sistema de controle de versão alternativo ao Git.",
+            "c": "Uma ferramenta de automação de fluxo de trabalho CI/CD dentro do GitHub."
+        },
+        "answer": "c"
+    },
+    {
+        "id": "q5",
+        "text": "5. O que é um Pull Request (PR) no GitHub?",
+        "options": {
+            "a": "Um pedido para acessar repositórios privados.",
+            "b": "Uma solicitação para mesclar código de uma ramificação para outra após revisão.",
+            "c": "Uma função que permite excluir um repositório."
+        },
+        "answer": "b"
+    },
+    {
+        "id": "q6",
+        "text": "6. Qual comando Git é usado para enviar suas alterações locais para o repositório remoto no GitHub?",
+        "options": {
+            "a": "git push",
+            "b": "git commit",
+            "c": "git clone"
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q7",
+        "text": "7. Como os rótulos (labels) ajudam na gestão de issues no GitHub?",
+        "options": {
+            "a": "Permitem agendar reuniões diretamente no GitHub.",
+            "b": "Ajudam a categorizar e priorizar tarefas visualmente.",
+            "c": "Servem apenas para fins decorativos."
+        },
+        "answer": "b"
+    },
+    {
+        "id": "q8",
+        "text": "8. Qual é a melhor prática ao escrever a descrição de um Pull Request?",
+        "options": {
+            "a": "Deixar a descrição em branco para evitar ruídos.",
+            "b": "Fornecer um resumo claro das alterações e o motivo por trás delas.",
+            "c": "Escrever instruções de uso da interface gráfica."
+        },
+        "answer": "b"
+    },
+    {
+        "id": "q9",
+        "text": "9. O que são GitHub Issues?",
+        "options": {
+            "a": "Um tipo de branch especial.",
+            "b": "Ferramentas de monitoramento de performance de código.",
+            "c": "Uma maneira de relatar bugs, sugerir melhorias ou acompanhar tarefas."
+        },
+        "answer": "c"
+    }
+]
