@@ -1,11 +1,13 @@
 let questions = [];
 
-fetch('questions.json')
+fetch('https://raw.githubusercontent.com/camilamachado/GitHub4Women/main/questions.json')
     .then(response => response.json())
     .then(data => {
         questions = data;
         renderQuestions();
-    });
+    })
+    .catch(error => console.error('Erro ao carregar o arquivo JSON:', error));
+
 
 function renderQuestions() {
     const container = document.getElementById('questions-container');
