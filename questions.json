@@ -88,5 +88,526 @@
             "c": "Uma maneira de relatar bugs, sugerir melhorias ou acompanhar tarefas."
         },
         "answer": "c"
+    },
+    {
+        "id": "q10",
+        "text": "10. Qual descritor de Projeto é salvo automaticamente ao ser alterado?",
+        "options": {
+            "a": "Nome do Projeto",
+            "b": "Descrição do Projeto",
+            "c": "README do Projeto"
+        },
+        "answer": "c"
+    },
+    {
+        "id": "q11",
+        "text": "11. O que um campo de iteração permite fazer em um Projeto?",
+        "options": {
+            "a": "Rastrear as várias alterações feitas em uma issue ou pull request.",
+            "b": "Reverter alterações feitas no Projeto.",
+            "c": "Criar fases sequenciais do projeto e agrupar issues e pull requests com base nessas fases."
+        },
+        "answer": "c"
+    },
+    {
+        "id": "q12",
+        "text": "12. Qual campo pode ser usado para criar uma categorização de Prioridade como Alta, Média e Baixa?",
+        "options": {
+            "a": "Data",
+            "b": "Seleção única",
+            "c": "Campo de iteração"
+        },
+        "answer": "b"
+    },
+    {
+        "id": "q13",
+        "text": "13. Qual é a maneira mais fácil de adicionar automações a um Projeto?",
+        "options": {
+            "a": "GraphQL API",
+            "b": "Automação embutida",
+            "c": "GitHub Actions"
+        },
+        "answer": "b"
+    },
+    {
+        "id": "q14",
+        "text": "14. Como se chama a seção onde você pode alterar a visibilidade do Projeto, fechá-lo ou excluí-lo?",
+        "options": {
+            "a": "Zona vermelha",
+            "b": "Visibilidade e Acesso",
+            "c": "Zona de perigo"
+        },
+        "answer": "c"
+    },
+    {
+        "id": "q15",
+        "text": "15. Em qual diretório o repositório é clonado ao criar um Codespace?",
+        "options": {
+            "a": "Diretório /workspaces",
+            "b": "Diretório /temp",
+            "c": "Diretório ~/.bashrc"
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q16",
+        "text": "16. Qual é o número máximo de Codespaces que você pode criar por repositório ou branch?",
+        "options": {
+            "a": "Somente dois Codespaces podem ser criados.",
+            "b": "É possível criar até 10 Codespaces.",
+            "c": "É possível criar até 30 Codespaces.",
+            "d": "É possível criar um número ilimitado de Codespaces, dependendo do espaço disponível. Quando o limite for atingido, será necessário remover um existente."
+        },
+        "answer": "d"
+    },
+    {
+        "id": "q17",
+        "text": "17. O que acontece quando um Codespace perde a conexão com a internet?",
+        "options": {
+            "a": "Você não poderá acessar o Codespace.",
+            "b": "Codespaces funcionam offline normalmente.",
+            "c": "As alterações feitas durante a desconexão não são salvas."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q18",
+        "text": "18. O que define o início do ciclo de vida de um Codespace?",
+        "options": {
+            "a": "Começa ao criar um Codespace e termina ao excluí-lo.",
+            "b": "Começa ao abrir o GitHub e termina ao fechar o software.",
+            "c": "Começa ao criar um repositório e termina ao excluí-lo."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q19",
+        "text": "19. Em que cenário os problemas do GitHub seriam mais eficazes do que discussões?",
+        "options": {
+            "a": "Ao buscar a opinião da comunidade sobre ideias e melhorias para o projeto.",
+            "b": "Ao monitorar tarefas e bugs específicos que precisam ser resolvidos.",
+            "c": "Ao fazer anúncios e compartilhar notícias com a equipe."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q20",
+        "text": "20. Sua equipe deseja aprimorar a colaboração usando o GitHub Discussions. Qual é um recurso fundamental do GitHub Discussions que dá suporte à comunicação aberta?",
+        "options": {
+            "a": "Eles geram automaticamente itens de ação para membros da equipe.",
+            "b": "Eles permitem uma conversa fluida e aberta acessível a todos com acesso ao repositório.",
+            "c": "Eles são limitados apenas a tópicos relacionados ao código."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q21",
+        "text": "21. Sua organização está planejando criar um novo projeto usando o GitHub. O líder da equipe pede que você configure o repositório inicial e verifique se ele pode acomodar necessidades futuras de desenvolvimento. Qual é a primeira etapa que você deve dar para criar um repositório no GitHub?",
+        "options": {
+            "a": "Crie uma nova branch para iniciar o desenvolvimento.",
+            "b": "Selecione \"Novo repositório\" no menu suspenso no canto superior direito da página do GitHub.",
+            "c": "Navegue até 'Configurações' e configure permissões de repositório."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q22",
+        "text": "22. Sua equipe está considerando usar o GitHub Discussions para anúncios de projeto. Qual é a vantagem de usar Discussões para essa finalidade em relação a Problemas?",
+        "options": {
+            "a": "As discussões exigem menos permissões para acessar em comparação às questões.",
+            "b": "As discussões permitem conversas abertas e envolvimento além de tarefas específicas.",
+            "c": "As discussões são vinculadas automaticamente a solicitações de pull para melhor acompanhamento."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q23",
+        "text": "23. Qual é o benefício de personalizar as configurações de notificação no GitHub?",
+        "options": {
+            "a": "O sistema cancela automaticamente sua inscrição em todas as notificações do repositório.",
+            "b": "Ele permite a exclusão automática de notificações antigas.",
+            "c": "Ele permite que você permaneça informado sobre atividades específicas sem ser sobrecarregado por atualizações irrelevantes."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q24",
+        "text": "24. Sua equipe está colaborando em um novo recurso usando o GitHub. Como o GitHub Flow pode ajudar no gerenciamento desse processo de desenvolvimento?",
+        "options": {
+            "a": "Ele fornece um fluxo de trabalho estruturado para experimentar e colaborar com segurança por meio de ramificação, solicitações de pull e mesclagem.",
+            "b": "Ele mescla automaticamente as alterações no branch principal sem revisão.",
+            "c": "Ele restringe o acesso ao repositório para evitar alterações não autorizadas."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q25",
+        "text": "25. Como os Problemas e Discussões do GitHub se complementam no gerenciamento de projetos?",
+        "options": {
+            "a": "As discussões são usadas principalmente para acompanhar bugs, enquanto os Tópicos são usados para anúncios.",
+            "b": "As questões são usadas para acompanhar tarefas e bugs, enquanto as discussões podem ser utilizadas para conversas mais amplas.",
+            "c": "Os problemas e as discussões são usados de forma intercambiável para o gerenciamento de tarefas."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q26",
+        "text": "26. Qual das opções a seguir descreve um recurso exclusivo de gerenciamento de notificações no GitHub?",
+        "options": {
+            "a": "Você só pode receber notificações por email.",
+            "b": "As notificações são habilitadas automaticamente para todos os repositórios visitados.",
+            "c": "Você pode inscrever-se para receber notificações de um problema específico ou de um pull request."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q27",
+        "text": "27. Ao colaborar em um projeto, sua equipe decide usar solicitações de pull. Qual é a principal vantagem de usar pull requests para mesclar alterações no branch principal?",
+        "options": {
+            "a": "Eles permitem que os membros da equipe examinem e discutam as alterações antes da integração.",
+            "b": "Eles aceleram o processo de implantação ignorando testes.",
+            "c": "Eles resolvem automaticamente conflitos entre branches."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q28",
+        "text": "28. Quais dos cenários a seguir é um caso de uso comum para um sistema de controle de versão?",
+        "options": {
+            "a": "Excluir versões anteriores de um projeto ou um arquivo, de modo que você saiba que está trabalhando apenas com o arquivo ou os dados mais atuais.",
+            "b": "Fazer alterações experimentais no projeto em um branch isolado.",
+            "c": "Coletar requisitos de funcionalidades para um projeto grande e comunicá-los às partes interessadas."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q29",
+        "text": "29. Qual é outro nome para um sistema de controle de versão?",
+        "options": {
+            "a": "VMS (Software de gerenciamento de versões)",
+            "b": "Sistema de SCM (gerenciamento de controle de software)",
+            "c": "Sistema de SCM (gerenciamento de configuração de software)"
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q30",
+        "text": "30. Qual é a diferença entre o Git e o GitHub?",
+        "options": {
+            "a": "O Git permite trabalhar com um ou mais branches locais e enviar alterações por push para um repositório remoto. O GitHub funciona como o repositório remoto, que é acessado por meio de um site ou de ferramentas de linha de comando.",
+            "b": "O Git é um DVCS (sistema de controle de versão distribuído) executado na nuvem. O GitHub é uma camada de interface que fornece acesso à tecnologia do Git.",
+            "c": "O Git é usado por um colaborador individual. O GitHub é usado por vários colaboradores para simplificar o trabalho de desenvolvimento em grupo."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q31",
+        "text": "31. Qual comando do Git fornece informações sobre como usá-lo?",
+        "options": {
+            "a": "git init",
+            "b": "git status",
+            "c": "git help"
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q32",
+        "text": "32. Qual é a diferença entre as contas organizacionais do GitHub e as contas pessoais/de usuário do GitHub?",
+        "options": {
+            "a": "As contas organizacionais são contas compartilhadas, enquanto as contas pessoais/de usuário são para pessoas físicas.",
+            "b": "Você paga mais por contas da organização do que por contas pessoais/de usuário.",
+            "c": "Elas são exatamente iguais.",
+            "d": "Contas pessoais/de usuário têm mais acesso do que contas da organização."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q33",
+        "text": "33. Qual é o melhor motivo para decidir fazer a atualização para o produto GitHub Enterprise?",
+        "options": {
+            "a": "Porque quero usar o GitHub Actions e os Codespaces.",
+            "b": "Porque meu VP precisa usar o GitHub Insights.",
+            "c": "Porque quero gerenciar centralmente usuários e repositórios de várias organizações.",
+            "d": "Porque quero usar o recurso de revisores de solicitação de pull de equipe."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q34",
+        "text": "34. Qual é o propósito de uma equipe?",
+        "options": {
+            "a": "Uma equipe permite que você gerencie uma conta da organização.",
+            "b": "Uma equipe permite controlar os níveis de permissão de uma empresa.",
+            "c": "Uma equipe permite que um único usuário entre usando credenciais de contas diferentes.",
+            "d": "Uma equipe destina-se a refletir a estrutura de uma empresa ou grupo. Isso é usado para fornecer permissões de acesso em cascata e facilitar a notificação de todos os membros da equipe por meio de menções."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q35",
+        "text": "35. O que é uma função que você pode ser executada no GitHub para Dispositivos Móveis?",
+        "options": {
+            "a": "Fazer o checkout de branches com solicitações de pull e conferir os status de CI.",
+            "b": "Comparar imagens alteradas.",
+            "c": "Adicionar e clonar repositórios.",
+            "d": "Gerenciar, selecionar e limpar notificações no github.com."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q36",
+        "text": "36. Quais desses recursos são exclusivos do GitHub Enterprise Cloud (GHEC)?",
+        "options": {
+            "a": "Requer gerenciamento de infraestrutura e implantação local",
+            "b": "Fornece gerenciamento de usuário centralizado com integração do provedor de identidade",
+            "c": "Deve ser instalado e mantido pela equipe de TI da organização",
+            "d": "Opera inteiramente em um ambiente de nuvem privada"
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q37",
+        "text": "37. Quais ações você pode executar em nível empresarial para gerenciar o uso do GitHub Actions em sua instância corporativa?",
+        "options": {
+            "a": "Criar modelos de fluxo de trabalho",
+            "b": "Configurar uma política de uso do GitHub Actions",
+            "c": "Sincronizar manualmente ações públicas no Enterprise Cloud"
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q38",
+        "text": "38. Quais ações você pode executar para configurar executores auto-hospedados para o uso corporativo?",
+        "options": {
+            "a": "Criar e adicionar rótulos personalizados aos executores",
+            "b": "Adicione configurações de proxy aos seus executores depois que eles forem iniciados.",
+            "c": "Adicione o endereço IP ou o intervalo de endereços IP de seus executores no nível do repositório."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q39",
+        "text": "39. O que são segredos criptografados?",
+        "options": {
+            "a": "Os segredos criptografados são tokens de autenticação que você pode gerar em suas configurações de conta.",
+            "b": "Os segredos criptografados são equivalentes às chaves SSH no GitHub.",
+            "c": "Os segredos criptografados são variáveis de ambiente criptografadas que podem ser criadas para armazenar informações confidenciais."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q40",
+        "text": "40. O que é o GitHub Copilot?",
+        "options": {
+            "a": "O GitHub Copilot é um programador em pares de IA que você pode usar para obter sugestões de código.",
+            "b": "O GitHub Copilot é um Codex da OpenAI, um novo sistema de IA criado pela OpenAI.",
+            "c": "O GitHub Copilot é um repositório público JavaScript e é uma das linguagens com melhor suporte.",
+            "d": "O GitHub Copilot pode escrever um comentário descrevendo a lógica e você pode adicionar o código sugerido para implementar a solução."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q41",
+        "text": "41. Quais são as extensões de IDE compatíveis com o GitHub Copilot?",
+        "options": {
+            "a": "VS Code e Visual Studio",
+            "b": "GitHub.com, VS Code, Visual Studio, Neovim e JetBrains",
+            "c": "VS Code, Visual Studio, Neovim e JetBrains"
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q42",
+        "text": "42. Qual é a diferença entre o GitHub Copilot Business e o GitHub Copilot Enterprise?",
+        "options": {
+            "a": "O GitHub Copilot Enterprise oferece preenchimentos de código, ao contrário do GitHub Copilot Business.",
+            "b": "O GitHub Copilot Enterprise oferece o chat no IDE e em dispositivos móveis, ao contrário do GitHub Copilot Business.",
+            "c": "O GitHub Copilot Enterprise tem uma camada extra de personalização. As organizações usam uma base de código própria para treinar o GitHub Copilot.",
+            "d": "O GitHub Copilot Enterprise oferece uma camada extra de segurança, com indenização de IP e segurança, proteção e privacidade de nível empresarial."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q43",
+        "text": "43. Em qual diretório o clone é colocado depois de criar um Codespace?",
+        "options": {
+            "a": "Diretório /workspaces",
+            "b": "Diretório /temp",
+            "c": "Diretório ~/.bashrc",
+            "d": "Diretório Linux"
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q44",
+        "text": "44. Qual é o número máximo de Codespaces que você pode criar por repositório ou branch?",
+        "options": {
+            "a": "Você só pode criar dois Codespaces.",
+            "b": "Você pode criar até 10 Codespaces.",
+            "c": "Você pode criar até 30 Codespaces.",
+            "d": "Você pode criar um número ilimitado de Codespaces por repositório ou branch, dependendo do espaço disponível. Quando você atinge uma quantidade superior de recursos, uma mensagem informa que um Codespace existente precisa ser removido/excluído antes que um Codespace possa ser criado."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q45",
+        "text": "45. O que acontece quando o Codespace perde a conectividade com a Internet?",
+        "options": {
+            "a": "Se a conexão com a Internet for perdida durante seu trabalho em um Codespace, você não poderá acessar o Codespace.",
+            "b": "O Codespace não exige uma conexão com a Internet. Posso acessar meu Codespace independentemente de perder a conectividade.",
+            "c": "Se você perder a conexão com a Internet ao trabalhar no Codespace, suas alterações não serão salvas."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q46",
+        "text": "46. O que define o início do ciclo de vida de um Codespace?",
+        "options": {
+            "a": "O ciclo de vida de um Codespace começa quando você cria um Codespace e termina quando você o exclui.",
+            "b": "O ciclo de vida de um Codespace começa imediatamente quando o GitHub é aberto e termina quando o software é fechado.",
+            "c": "O ciclo de vida de um Codespace começa com a criação de um repositório e termina com a sua exclusão."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q47",
+        "text": "47. Qual descritor do Projeto salva automaticamente quando você o altera?",
+        "options": {
+            "a": "Nome do projeto",
+            "b": "Descrição do projeto",
+            "c": "LEIA-ME do projeto"
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q48",
+        "text": "48. O que um campo de iteração ajuda você a fazer em projetos?",
+        "options": {
+            "a": "Permite que você acompanhe as várias alterações feitas em um problema ou solicitação de pull.",
+            "b": "Permite que você reverta as alterações feitas em seu projeto.",
+            "c": "Permite que você crie fases sequenciais do seu projeto e agrupe problemas e solicitações de pull com base na fase."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q49",
+        "text": "49. Qual campo você pode usar para fazer um agrupamento de Prioridade como Alta, Média e Baixa em seu projeto?",
+        "options": {
+            "a": "Data",
+            "b": "Seleção única",
+            "c": "Campo Iteração"
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q50",
+        "text": "50. Qual é a maneira mais fácil de adicionar automação ao seu projeto?",
+        "options": {
+            "a": "API do GraphQL",
+            "b": "Automação interna",
+            "c": "GitHub Actions"
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q51",
+        "text": "51. Qual é o nome da seção em que você pode alterar a visibilidade do projeto, fechar seu Projeto ou excluir seu Projeto?",
+        "options": {
+            "a": "Zona Red",
+            "b": "Visibilidade e acesso",
+            "c": "Zona Danger"
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q52",
+        "text": "52. Qual dos snippets de Markdown a seguir produz o texto Olá, mundo! em itálico em negrito?",
+        "options": {
+            "a": "*Hello, *world*!*",
+            "b": "**Hello, _world_!**",
+            "c": "**_Hello, world!_**",
+            "d": "2. Como você imprime determinados caracteres, como asteriscos (\\*) e sublinhados (\\_), literalmente na saída?"
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q53",
+        "text": "53. Como a barra de pesquisa de nível superior do GitHub difere das opções de pesquisa disponíveis nas guias do repositório?",
+        "options": {
+            "a": "Além de estarem localizados em partes diferentes da interface do usuário, eles são iguais.",
+            "b": "Elas dão suporte a diferentes opções de sintaxe de filtro.",
+            "c": "A barra de pesquisa de nível superior dá suporte à pesquisa de tudo em todo o GitHub, enquanto o escopo das pesquisas na guia de repositório abrange tipos específicos no repositório atual."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q54",
+        "text": "54. O que o git blame faz?",
+        "options": {
+            "a": "Ele cria um bug atribuído à última pessoa que realizou commit nas alterações no arquivo especificado.",
+            "b": "Ele exibe o histórico de commit do arquivo.",
+            "c": "Ele reverte os efeitos de um comando git praise."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q55",
+        "text": "55. Suponha que um problema de bug seja relatado no seu projeto e você saiba qual solicitação de pull causou o problema. Qual das opções a seguir não é uma prática recomendada de vinculação cruzada?",
+        "options": {
+            "a": "Não crie links cruzados quando a causa raiz do problema já for conhecida.",
+            "b": "Adicione um comentário ao relatório de bugs que inclui o autor da solicitação de pull usando uma @mention.",
+            "c": "Adicione um comentário ao relatório de bugs que vincula a solicitação de pull a ele usando uma sintaxe #ID."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q56",
+        "text": "56. Como o GitHub Copilot funciona?",
+        "options": {
+            "a": "O GitHub Copilot usa prompts e texto em linguagem natural que você digita para fornecer sugestões de código.",
+            "b": "O GitHub Copilot usa os destaques que você seleciona e fornece sugestões com base neles.",
+            "c": "O GitHub Copilot utiliza linguagem de rádio, que você digita e fornece sugestões com base no que você digita."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q57",
+        "text": "57. Quais são alguns recursos do GitHub Copilot Gratuito?",
+        "options": {
+            "a": "É uma ferramenta gratuita de IA sem restrições, que funciona independentemente dos editores de código.",
+            "b": "Ele fornece várias sugestões e chats por mês diretamente no seu IDE e em github.com.",
+            "c": "Uma opção para habilitar respostas mais lentas, preservando sua cota do Copilot Pro."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q58",
+        "text": "58. Como você pode aceitar as sugestões do GitHub Copilot?",
+        "options": {
+            "a": "Pressione a tecla Tab.",
+            "b": "Pressione a tecla F1.",
+            "c": "Pressione a tecla F4."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q59",
+        "text": "59. Identifique qual instrução é válida e selecione a resposta correta:",
+        "options": {
+            "a": "Um prompt, que é a nossa saída, é uma coleção de músicas que informa ao nosso copiloto o que gerar.",
+            "b": "Um prompt, que é nossa entrada, é uma coleção de instruções ou diretrizes que dizem ao nosso copiloto o que gerar.",
+            "c": "Um prompt, que é nosso documento, é uma coleção de laptops que diz ao nosso Copilot o que gerar."
+        },
+        "answer": "a"
+    },
+    {
+        "id": "q60",
+        "text": "60. Do que depende a qualidade da saída do GitHub Copilot?",
+        "options": {
+            "a": "Seu editor de código.",
+            "b": "Quão bem suas extensões foram instaladas.",
+            "c": "Quão bem você elabora seu prompt."
+        },
+        "answer": "a"
     }
 ]
